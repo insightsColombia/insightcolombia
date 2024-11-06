@@ -25,10 +25,17 @@ model.to(device)
 
 # Cargar los pesos entrenados y manejar errores
 try:
+    # Intenta cargar los pesos como state_dict
     model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
-    st.success("Modelo cargado exitosamente.")
+    st.success("Pesos del modelo cargados correctamente.")
+except RuntimeError:
+    # Si falla, intenta cargar el modelo completo
+    model = torch.load(MODEL_PATH, map_location=device)
+    model.to(device)
+    st.warning("Se cargó el modelo completo en lugar de solo los pesos.")
 except Exception as e:
     st.error(f"Error al cargar el modelo: {e}")
+
 
 def classifySentiment(review_text):
     model.eval()
