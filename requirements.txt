@@ -1,0 +1,15 @@
+pandas
+streamlit
+plotly
+streamlit_option_menu
+streamlit_lottie
+SpeechRecognition
+torch
+transformers
+praw
+openai
+tensorflow
+numpy
+matplotlib
+groq
+
