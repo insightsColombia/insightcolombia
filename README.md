@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo realizar un análisis estadístico descriptivo
 
 ## Metodología para la Analítica de Datos: CRISP-DM
 En este proyecto, se ha empleado la metodología CRISP-DM (Cross-Industry Standard Process for Data Mining), un estándar ampliamente utilizado en el análisis de datos. CRISP-DM proporciona un marco estructurado que ayuda a guiar el proceso de análisis y minería de datos, asegurando una aproximación sistemática desde la comprensión de los datos hasta la obtención de resultados prácticos. Esta metodología consta de seis fases principales:
-![Metodología para la Analítica de Datos: CRISP-DM](data/crisp-dm.jpg)
+![Metodología para la Analítica de Datos: CRISP-DM](img/crisp-dm.jpg)
 
 
 ## Estructura del Proyecto
