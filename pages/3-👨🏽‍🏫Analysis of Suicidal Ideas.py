@@ -28,7 +28,7 @@ try:
     model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
     st.success("Modelo cargado exitosamente.")
 except Exception as e:
-    st.error(f"Error al cargar el modelo: {e}")
+    st.error(f"")
 
 def classifySentiment(review_text):
     model.eval()
