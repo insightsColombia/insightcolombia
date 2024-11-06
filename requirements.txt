@@ -14,3 +14,4 @@ matplotlib
 groq
 xgboost
 langchain_experimental
+langchain_groq
