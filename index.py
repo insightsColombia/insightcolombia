@@ -47,7 +47,11 @@ with st.container():
 
 st.write("---")
 
-st.markdown("""
+image_path = "img/qr.png" 
+
+col1, col2= st.columns([4.5, 1.8])
+with col1:
+    st.markdown("""
 
     Bienvenido a tu guía integral para la prevención del suicidio.
 
@@ -64,7 +68,10 @@ st.markdown("""
     Juntos, en InSight Colombia, estamos comprometidos a marcar la diferencia en la prevención del suicidio.
 
     """
-)
+    )
+with col2:
+  st.image(image_path, use_column_width=True)
+
 
 st.write("---")
 
