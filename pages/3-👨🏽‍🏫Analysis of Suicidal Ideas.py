@@ -24,7 +24,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 # Cargar los pesos entrenados y manejar errores
-model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
+try:
+    model.load_state_dict(torch.load(MODEL_PATH, map_location=device))
+    st.success("Modelo cargado exitosamente.")
+except Exception as e:
+    st.error(f"Error al cargar el modelo: {e}")
 
 def classifySentiment(review_text):
     model.eval()
