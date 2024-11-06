@@ -12,4 +12,5 @@ tensorflow
 numpy
 matplotlib
 groq
+xgboost
 
