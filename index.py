@@ -53,19 +53,18 @@ col1, col2= st.columns([4.5, 1.8])
 with col1:
     st.markdown("""
 
-    Bienvenido a tu guía integral para la prevención del suicidio.
 
-    InSight Colombia es más que una aplicación; es una herramienta esencial en la lucha contra el suicidio. 
+    InSight Colombia es más que una aplicación; es una herramienta esencial para tu vida. 
     
     Proporcionamos:
 
-    - **Comprensión Inicial**: exploramos la problemática del suicidio y conceptos relevantes.
-    - **Datos y Análisis**: presentamos datos interactivos de intentos de suicidio entre 2016 y 2023.
-    - **Tecnología Avanzada**: utilizamos Deep Learning para analizar texto y audio, identificando la expresión de la ideación suicida.
-    - **Asistencia Personalizada**: un asistente virtual está disponible para primeros auxilios psicológicos.
-    - **Comunidad Participativa**: invitamos a compartir sugerencias y experiencias para mejorar nuestros servicios.
+    ¡Bienvenido a tu espacio seguro de bienestar emocional! En este sitio encontrarás un asistente virtual 
+    dedicado a brindarte apoyo emocional en tiempo real, diseñado para acompañarte en tu camino hacia una 
+    mejor salud mental. Sin importar lo que estés atravesando, estamos aquí para escucharte, comprenderte y 
+    ofrecerte herramientas personalizadas que te ayuden a manejar tus emociones, reducir el estrés y encontrar 
+    alivio en momentos de dificultad. Tu bienestar importa, y no tienes que enfrentar tus retos emocionales solo.
     
-    Juntos, en InSight Colombia, estamos comprometidos a marcar la diferencia en la prevención del suicidio.
+    Juntos, en InSight Colombia, estamos comprometidos a marcar la diferencia en el apoyo emocional.
 
     """
     )
