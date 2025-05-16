@@ -1,4 +1,4 @@
-# Análisis Estadístico Descriptivo y Predictivo de los Intentos de Suicidio en Colombia (2016-2023) e Identificación de Ideas Suicidas en Redes Sociales mediante Modelos de Aprendizaje Profundo
+# Análisis Estadístico Descriptivo y Predictivo de los Intentos de Suicidio en Colombia (2016-2023) e Identificación de Ideas Suicidas en Redes Sociales mediante Modelos de Aprendizaje Profundo-
 
 ## Descripción del Proyecto
 Este proyecto tiene como objetivo realizar un análisis estadístico descriptivo y predictivo sobre los datos de intentos de suicidio en Colombia en el periodo de 2016 a 2023. Además, busca identificar ideas suicidas en redes sociales mediante el uso de modelos de aprendizaje profundo. Este análisis proporciona una visión integral sobre el comportamiento de los intentos de suicidio y utiliza datos no estructurados de redes sociales para identificar patrones de riesgo.
