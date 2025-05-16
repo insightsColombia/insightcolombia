@@ -49,7 +49,7 @@ with col2:
     st.title("Victor Guzmán-Brand", anchor=False)
     st.write(
         """ 
-        - Estudiante de Ingeniería de Sistemas (9 semestre) 
+        - Estudiante de Ingeniería de Sistemas (10 semestre) 
         - Corporación Unificada Nacional de Educación Superior (CUN) 
         - Email: victora.guzman@cun.edu.co
         - https://scholar.google.com/citations?user=a27XGQcAAAAJ&hl=es
