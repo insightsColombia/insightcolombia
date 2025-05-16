@@ -78,6 +78,6 @@ st.write("---")
 with st.container():
     st.markdown("""
         <div style="text-align: center;">
-            <h5>🌎2024</h5>
+            <h5>🌎2025</h5>
         </div>
     """, unsafe_allow_html=True)
