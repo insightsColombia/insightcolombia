@@ -56,19 +56,6 @@ with col2:
         """
     )
         
-st.write("____")
-col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
-with col1:
-    st.image("./img/foto2.png", width=230)
-with col2:
-    st.title("Oscar Leonardo Bejarano", anchor=False)
-    st.write(
-        """ 
-        - Estudiante de Ingeniería de Sistemas (8 semestre)
-        - Corporación Unificada Nacional de Educación Superior (CUN) 
-        - Email: omar.bejarano@cun.edu.co
-        """
-    )
     
 st.write("____")
 #FOOTER
